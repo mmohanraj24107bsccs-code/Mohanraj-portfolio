@@ -1,0 +1,13 @@
+{
+  "name": "mohan-portfolio",
+  "version": "1.0.0",
+  "description": "Mohan Raj M - 3D Developer Portfolio",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "node run.js"
+  },
+  "keywords": ["portfolio", "threejs", "gsap", "developer"],
+  "author": "Mohan Raj M",
+  "license": "ISC"
+}

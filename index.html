@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mohan Raj M — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="tl eyebrow">Portfolio</div>
+  <div id="word" class="d">Design</div>
+  <div id="count" class="d">000</div>
+  <div id="bar"><i></i></div>
+</div>
+
+<nav><div class="pill" id="pill">
+  <a class="logo" href="#home" aria-label="Home"><span class="d">MR</span></a>
+  <i class="dv"></i>
+  <a class="l on" href="#home">Home</a><a class="l" href="#skills">Skills</a><a class="l" href="#work">Work</a><a class="l" href="#live">Live</a><a class="l hide" href="#journey">Journey</a>
+  <i class="dv"></i>
+  <a class="hi" href="#contact"><span>Say hi ↗</span></a>
+</div></nav>
+
+<header id="home">
+  <canvas id="gl"></canvas>
+  <div class="hero-in">
+  <div class="hc">
+    <p class="eyebrow n">Portfolio '26</p>
+    <h1 class="d n" id="nm">Mohan Raj M</h1>
+    <p class="role n">A <b class="d" id="role">Web Developer</b> who builds for the browser.</p>
+    <p class="desc n">Building fast, accessible web apps on a solid foundation of computer science — data structures, databases, networks and clean architecture.</p>
+    <div class="btns n"><a class="btn b1 gb" href="#live">See Live Projects</a><a class="btn b2 gb" href="#contact">Reach out...</a></div>
+  </div>
+  <div class="ph n" id="ph"><div class="glow"></div>
+    <span class="chip" style="top:8%;left:-10%">⚛ React</span><span class="chip" style="top:34%;right:-12%;animation-delay:-1.5s">🧠 DSA</span><span class="chip" style="top:62%;left:-14%;animation-delay:-3s">🗄 Databases</span>
+    <div class="in"><img src="assets/mohan.png" alt="Mohan Raj M" width="600" height="782"><div class="plate"><b class="d">Mohan Raj M</b><small>IT &amp; Web Development</small></div></div>
+  </div></div>
+  <div class="scroll">SCROLL<i></i></div>
+</header>
+
+<section id="skills"><div class="w">
+  <div class="sh rv"><p class="eyebrow">About &amp; Skills</p><h2>Code with <em class="d">strong</em> fundamentals</h2>
+  <p class="sub">I'm Mohan Raj M, a web developer who pairs modern frameworks with a real understanding of what runs underneath. Drag the sphere to explore my stack.</p></div>
+  <div class="two rv"><div id="sphere" aria-label="Interactive 3D skill sphere"></div>
+  <div class="grid g3" style="grid-template-columns:1fr 1fr">
+    <div class="card tilt"><h3 class="d">Frontend</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Tailwind</span><span>Three.js</span><span>GSAP</span></div></div>
+    <div class="card tilt"><h3 class="d">Backend</h3><div class="tags"><span>Node.js</span><span>Express</span><span>REST APIs</span><span>Auth / JWT</span><span>MongoDB</span><span>SQL</span></div></div>
+  </div></div>
+</div>
+<div class="w" style="margin-top:40px"><div class="grid g3 rv">
+  <div class="card tilt"><h3 class="d">CS Fundamentals</h3><p>The core theory behind every good system.</p><div class="tags"><span>Data Structures</span><span>Algorithms</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networks</span></div></div>
+  <div class="card tilt"><h3 class="d">Engineering</h3><p>How I ship and maintain software.</p><div class="tags"><span>Git &amp; GitHub</span><span>System Design basics</span><span>Testing</span><span>Debugging</span><span>Design Patterns</span><span>Linux / CLI</span></div></div>
+  <div class="card tilt"><h3 class="d">Web Platform</h3><p>Performance, reach and quality.</p><div class="tags"><span>Responsive Design</span><span>Accessibility</span><span>Web Performance</span><span>SEO basics</span><span>HTTP / DNS</span><span>Security basics</span></div></div>
+</div></div></section>
+
+<section id="work"><div class="w">
+  <div class="sh rv"><p class="eyebrow">Selected Work</p><h2>Featured <em class="d">projects</em></h2>
+  <p class="sub">Modern full-stack web apps built around today's biggest trends: AI, real-time, SaaS, e-commerce and PWAs. Add your demo and GitHub links to each card.</p></div>
+  <div class="apps rv"><article class="card app tilt"><div class="ai">🤖</div><h3 class="d">AI Chat Assistant</h3><p>Streaming chat UI with markdown replies, saved conversations and prompt templates.</p><div class="tags"><span>React</span><span>Node.js</span><span>LLM API</span><span>SSE</span></div><div class="lk"><a href="#">Live demo ↗</a><a href="#">Code ↗</a></div></article><article class="card app tilt"><div class="ai">📊</div><h3 class="d">Real-time Analytics Dashboard</h3><p>Live KPIs and streaming charts. A working demo runs in the Live section below.</p><div class="tags"><span>WebSockets</span><span>Charts</span><span>Node.js</span></div><div class="lk"><a href="#dash">Try live ↓</a><a href="#">Code ↗</a></div></article><article class="card app tilt"><div class="ai">💳</div><h3 class="d">SaaS Subscription Platform</h3><p>Sign-up, roles, billing plans and a customer dashboard.</p><div class="tags"><span>Next.js</span><span>Stripe</span><span>Auth</span><span>PostgreSQL</span></div><div class="lk"><a href="#">Live demo ↗</a><a href="#">Code ↗</a></div></article><article class="card app tilt"><div class="ai">🛒</div><h3 class="d">E-commerce Store</h3><p>Product catalogue, cart, secure checkout and an admin panel.</p><div class="tags"><span>React</span><span>Express</span><span>MongoDB</span><span>Payments</span></div><div class="lk"><a href="#">Live demo ↗</a><a href="#">Code ↗</a></div></article><article class="card app tilt"><div class="ai">📱</div><h3 class="d">Offline-first PWA</h3><p>Installable expense tracker that works without internet and syncs later.</p><div class="tags"><span>PWA</span><span>Service Worker</span><span>IndexedDB</span></div><div class="lk"><a href="#">Live demo ↗</a><a href="#">Code ↗</a></div></article><article class="card app tilt"><div class="ai">💬</div><h3 class="d">Team Chat &amp; Collaboration</h3><p>Rooms, typing indicators and presence with real-time messaging.</p><div class="tags"><span>Socket.io</span><span>React</span><span>Redis</span></div><div class="lk"><a href="#">Live demo ↗</a><a href="#">Code ↗</a></div></article></div>
+</div></section>
+
+<section id="live"><div class="w">
+  <div class="sh rv"><p class="eyebrow">Live Projects</p><h2>Built &amp; <em class="d">working</em> right here</h2>
+  <p class="sub">Three real, interactive projects running in your browser: a DSA sorting visualizer, a task board that remembers your work, and a real-time dashboard.</p></div>
+  <div class="card lv rv"><div class="lh"><h3 class="d">Algorithm Visualizer</h3><span class="live"><i class="dot"></i>Live</span></div>
+    <div id="bars"></div>
+    <div class="ctl"><select id="alg"><option value="bubble">Bubble sort</option><option value="selection">Selection sort</option><option value="insertion">Insertion sort</option><option value="quick">Quick sort</option></select>
+    <button id="go" class="bt">Sort</button><button id="shuf" class="bt o">New array</button>
+    <label>Speed <input id="spd" type="range" min="5" max="150" value="40" style="direction:rtl"></label><span class="mu">Steps: <b id="st">0</b></span></div></div>
+  <div class="card lv rv" style="margin-top:20px"><div class="lh"><h3 class="d">Project Board</h3><span class="live"><i class="dot"></i><span id="clk">Live</span></span></div>
+    <div class="ctl"><input id="ti" placeholder="Add a task and press Enter" maxlength="60"><button id="add" class="bt">Add task</button>
+    <span class="mu">Done <b id="pc">0%</b></span></div><div id="pgw"><i id="pg"></i></div>
+    <div class="kb"><div><h5>To do <b id="n0">0</b></h5><div id="c0"></div></div><div><h5>In progress <b id="n1">0</b></h5><div id="c1"></div></div><div><h5>Done <b id="n2">0</b></h5><div id="c2"></div></div></div></div>
+  <div class="card lv rv" id="dash" style="margin-top:20px"><div class="lh"><h3 class="d">Real-time Analytics Dashboard</h3><span class="live"><i class="dot"></i>Streaming</span></div>
+    <div class="kp"><div><small>Active users</small><b id="k1">0</b></div><div><small>Requests / sec</small><b id="k2">0</b></div><div><small>Avg latency</small><b id="k3">0</b></div></div>
+    <svg id="chart" viewBox="0 0 600 160" preserveAspectRatio="none"><defs><linearGradient id="lg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4E85BF" stop-opacity=".5"/><stop offset="1" stop-color="#4E85BF" stop-opacity="0"/></linearGradient></defs><path id="ar" fill="url(#lg)"/><polyline id="ln" fill="none" stroke="#89AACC" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>
+    <p class="mu" style="font-size:12px;margin-top:8px">Simulated data stream. In production this feeds from a WebSocket.</p></div>
+</div></section>
+<section id="journey"><div class="w">
+  <div class="sh rv"><p class="eyebrow">Journey</p><h2>How I <em class="d">work</em></h2></div>
+  <div class="tl2 rv">
+    <div><h4>Learn the fundamentals</h4><p>Data structures, algorithms, databases, operating systems and networking — so I understand why things work, not just how.</p></div>
+    <div><h4>Build with modern tools</h4><p>HTML, CSS, JavaScript and React on the front; Node.js and databases on the back; Three.js when a page needs depth.</p></div>
+    <div><h4>Ship, measure, improve</h4><p>Responsive, accessible and fast by default — tested, versioned with Git and refined from feedback.</p></div>
+  </div>
+</div></section>
+
+<footer id="contact">
+  <canvas id="cgl"></canvas>
+  <div class="mq"><div id="mq"><span class="d">BUILDING THE FUTURE • </span></div></div>
+  <div class="cta"><p class="eyebrow">Let's work together</p><h2 style="margin-top:16px">Have a project in <em class="d">mind?</em></h2>
+  <a class="btn gb" href="mailto:youremail@example.com">mohanraj241967@gmail.com</a></div>
+  <div class="w"><div class="foot"><div><a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">Twitter</a><a href="#">Dribbble</a></div><span><i class="dot"></i>Available for projects</span></div></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
